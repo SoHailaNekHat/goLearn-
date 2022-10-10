@@ -1,0 +1,95 @@
+.line{
+    position: absolute
+     
+ }
+ .hero-image{
+ position: absolute;
+ width: 682px;
+ height: 683px;
+ left: 760px;
+ bottom: 331px;
+ background-color: #FFFFFF;
+ border: 2px solid #212121;
+ }
+ .bottom-box{
+   
+ }
+ .rose-image{
+ width:225px ;
+ 
+ height: ;
+ 
+ }
+ 
+ .ratings{
+ width:140px ;
+ margin-top: 8px;
+ }
+ .horizintal-boxes-grid{
+ display: grid;
+ width: 300;
+ }
+ .vertical-bottom-grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-top: 50px;
+ height: 450;
+ width: 750;
+ margin-left: 35px;
+ }
+ .blue-grid{
+     
+     background-color: blue;
+     color: white;
+     font-size: medium;
+     width: 170px;
+     height: ;
+     margin-left: -10px;
+     margin-right: 0px;
+     border: 1px solid black;
+     margin-top: px;
+     padding-left: 15px;
+     padding-top: 10px;
+     font-size: 10px;
+     
+ 
+     
+    
+ }
+ .blue-box-grid{
+     display: grid;
+     grid-template-rows:1fr 2fr ;
+     width: 150px;
+     height: 295px;
+     margin-top: -19px;
+     text-align: left;
+     
+ }
+ .featured-box{
+     
+     background-color: lightgray;
+     width: 300;
+     height: 300;
+     margin-left: 0;
+     margin-right: 0;
+     border: 1px solid black;
+     padding-left: 15px;
+    padding-top: 10px;
+    font-size: 10px;
+ }
+ .courses-box{
+    
+     background-color: #d3d3d3;
+     width: 300;
+     height: 300;
+     margin-left: 0;
+     margin-right: 0;
+     border: 1px solid black;
+     padding-left: 15px;
+    padding-top: 10px;
+    font-size: 10px;
+ }
+ .vertical-boxes-grid{
+ display: flex;
+ height: 195px;
+ }

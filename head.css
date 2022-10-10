@@ -1,0 +1,629 @@
+.page{
+    position: relative;
+    width: 1440px;
+    height: 1116px;
+    background-color: #EEEEEE;
+    left: -5px;
+}
+.nav-bar{
+    position: absolute;
+
+height: 100px;
+left: 0px;
+right: 0px;
+top: -5px;
+background: #EEEEEE;
+border-bottom: 2px solid #212121;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frame-3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    
+    position: absolute;
+    width: 229px;
+    height: 42px;
+    right: 70px;
+    top: 29px;
+    
+}
+.button1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: 80px;
+    height: 42px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    right: 120px;
+    font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19.5135px;
+line-height: 22px;
+color: #212121; 
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    background: #212121;
+    border-radius: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5135px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 72px;
+height: 22px;
+position: absolute;
+right: 0px;
+border: none;
+}
+
+}
+.frame-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 77px;
+    
+    position: absolute;
+    width: 669px;
+    height: 38px;
+    left: 70px;
+    top: 31px;
+    
+}
+.golearn{
+    width: 180px;
+    height: 38px;
+    position: absolute;
+    font-family: 'Okay Serif trial';
+    font-style: normal;
+   
+    font-size: 43.4746px;
+    line-height: 34px;
+    color: #212121;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-weight: 700;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    text-decoration: none;
+    width: 412px;
+    height: 22.15px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    right: px;
+    left: 300px;
+    top: 15px;
+}
+.navigation ul li{
+list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5135px;
+    line-height: 22px;
+    color: #212121;
+}
+.mentors{
+    width: 102px;
+    height: 22px;
+    text-decoration: none;
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5135px;
+    line-height: 22px;
+    color: #212121;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.community{
+    width: 124px;
+    height: 22px;
+    text-decoration: none;
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.5135px;
+    line-height: 22px;
+    
+    /* Neutral / Black */
+    color: #212121;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.paragraph-grid{
+    display: grid;
+   width: 400px;
+   height: 250px;
+    grid-template-columns: 1fr;
+    margin-left: 0x;
+  
+   
+    
+}
+.paragraph{
+width: 565px;
+height: 297.24px;
+font-family: 'Kokoro Trial';
+font-style: normal;
+font-weight: 400;
+font-size: 82.5679px;
+line-height: 99px;
+columns: #212121;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.frame-9{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+  position: absolute;
+  width: 565px;
+  height: 422.24px;
+  left: 80px;
+  top: 180px;  
+}
+.hero-button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+ width: 157px;
+height: 29px;
+text-align: center;
+font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 28px;
+padding: 10px;
+gap: 10px;
+width: 235px;
+height: 75px;
+background:#1c3dee;
+border-radius: 50px;
+flex: none;
+order: 1;
+flex-grow: 0;
+color: #FFFFFF;
+
+}
+
+.line{
+    position: absolute;
+  
+    
+    width: 120px;
+   height: 0px;
+   right: 615px;
+    top: 480px;
+    border: 10px solid #1c3dee;
+
+}
+.featured-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+position: absolute;
+width: 1020px;
+height: 329px;
+right: 0px;
+top: 780px;
+
+}
+.featured-box1{
+width: 340px;
+height: 329px;
+background: #1C3DEE;
+border: 2px solid #212121;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+left: 0px;
+}
+
+.training-more-people{
+    position: absolute;
+    width: 240px;
+    height: 54px;
+    left: 30px;
+    top: 40px;
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.frame-7{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 197px;
+    height: 124px;
+    left: 30px;
+    bottom: 40px;
+    color: #FFFFFF;
+}
+.frame-7 b{
+    width: 197px;
+height: 103px;
+
+font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 103px;
+
+color: #FFFFFF;
+}
+.off{
+    position: absolute;
+    width: 46px;
+    height: 40px;
+    left: 200px;
+    bottom: 55px;
+    
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    
+}
+.featured-box2{
+width: 340px;
+height: 329px;
+background: #EEEEEE;
+border: 2px solid #212121;
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+right: 340px;
+}
+.join-discussions{
+    position: absolute;
+    width: 230px;
+    height: 54px;
+    left: 30px;
+    top: 40px;
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212121;
+}
+.diamonds{
+    position: absolute;
+    width: 116px;
+    height: 106px;
+    left: 15px;
+    top: 240px;
+    border: none;
+}
+.asset1{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 108px;
+    bottom: 126px;
+
+    
+}
+.asset2{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 39px;
+    bottom: 66px;
+    border: none;
+
+}
+.asset3{
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 30px;
+    bottom: 58px;
+
+}
+
+.featured-box3{
+    width: 340px;
+    height: 329px;
+    background: #DBDBDB;
+    border: 2px solid #212121;
+    flex: none;
+order: 2;
+flex-grow: 0;
+position: absolute;
+right: 0px;
+
+}
+.wide-choices{
+    position: absolute;
+    width: 156px;
+    height: 54px;
+    left: 30px;
+    top: 40px;
+    
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212121;
+}
+.arrows{
+    position: absolute;
+    width: 35px;
+    height: 33.71px;
+    left: 266px;
+    top: 21px;
+}
+.line5{
+    position: absolute;
+    width: 47.96px;
+    height: 0px;
+    right: 18.35px;
+    top: 30.29px;
+    border: 2px solid #212121;
+    transform: rotate(135.81deg);
+}
+.line4{
+    position: absolute;
+    width: 29px;
+    height: 0px;
+    right: 6px;
+    top: 27px;
+    border: 2px solid #212121;
+    transform: rotate(90deg);
+}
+.line3{
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    right: 24px;
+    top: 11px;
+    border: 2px solid #212121;
+}
+.k{
+    position: absolute;
+    width: 164px;
+    height: 103px;
+    left: 30px;
+    bottom: 61px;
+    
+    font-family: 'PP Pangram Sans';
+    line-height: 103px;
+    color: #212121;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+}
+.wide-choices{
+    color: #212121;
+    position: absolute;
+width: 166px;
+height: 54px;
+left: 30px;
+top: 40px;
+
+font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+}
+.polar-rose{
+    position: absolute;
+width: 440px;
+height: 440.41px;
+left: 30px;
+top: 100px;
+}
+.vector1{
+    position: absolute;
+    width: 91px;
+    height: 87px;
+    left: 50px;
+    top: 800px;
+
+}
+.vector2{
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 110px;
+    top: 550.59px;
+    
+}
+.vector3{
+
+    position: absolute;
+    width: 91px;
+    height: 87px;
+    left: 350px;
+    top: 500px;
+
+}
+.ratings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 231px;
+    height: 100.25px;
+    left: 70px;
+    top: 998.32px;
+    
+}
+.people{
+    width: 231px;
+height: 58.68px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ecllipse-5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 56.82px;
+    height: 56.82px;
+    left: 174.18px;
+    top: 1.86px;
+    border: none;
+    background: url(.png);
+   
+}
+.ecllipse-4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 56.82px;
+    height: 56.82px;
+    left: 134.18px;
+    top: 0px;
+    border: none;
+    background: url(.png);
+}
+.ecllipse-3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 56.82px;
+    height: 56.82px;
+    left: 90.35px;
+    top: 1.86px;
+    background: url(.png);
+
+}
+.ecllipse-2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 56.82px;
+    height: 56.82px;
+    left: 44.71px;
+    top: 0px;
+    
+    background: url(.png);
+}
+.ecllipse-1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 56.82px;
+    height: 56.82px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(.jpg);
+  
+}
+.frame-8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    
+    width: 229.83px;
+    height: 25.57px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.star{
+
+    width: 20.28px;
+    height: 20.28px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame-8 p{
+
+width: 204.55px;
+height: 25.57px;
+font-size: large;
+font-family: 'PP Pangram Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22.042px;
+line-height: 25px;
+color: #000000;
+font-weight: ;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.hero-image{
+    position: absolute;
+  right: 0px;
+    top: 95px;
+    width: 680px;
+    height: 600px;
+    
+}
+.image-2{
+    width: 680px;
+    height: 685px;
+
+}
